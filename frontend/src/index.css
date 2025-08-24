@@ -1,0 +1,45 @@
+@import "tailwindcss";
+//primary background color
+.bg-primary {
+    background-color : #5f6FFF;
+}
+
+.bg-my-primary {
+    background-color : #5f6FFF !important;
+}
+
+.active hr {
+  display: block;
+}
+
+*{
+    font-family : Outfit;
+}
+
+.text-primary {
+  color : #5f6FFF;
+}
+
+
+.banner-card-hover:hover {
+  background-color: #5f6FFF;
+}
+
+
+::-webkit-scrollbar {
+    @apply hidden;
+}
+
+.grid-cols-auto {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.text-4_5xl {
+  font-size: 40px; /* Between 36px and 48px */
+}
+
+@media (max-width:740px) {
+  .active p{
+    @apply text-white bg-[#5f6FFF];
+  }
+}

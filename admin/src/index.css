@@ -1,0 +1,32 @@
+  @import "tailwindcss";
+  .primary-color {
+    color : #5F6FFF;
+  }
+
+  .bg-my-primary {
+    background-color : #5F6FFF
+  }
+
+  .border-primary {
+    border-color : #5F6FFF
+  }
+
+  /* styles.css */
+.img-hover {
+  background-color: #E0E7FF; /* equivalent to bg-indigo-50 */
+  transition: background-color 0.5s, transform 0.5s;
+  border-radius: 9999px; /* full rounded */
+}
+
+.img-hover:hover {
+  background-color: #5F6FFF; /* your primary color */
+  transform: scale(1.05); /* optional: slight zoom effect */
+}
+
+  ::-webkit-scrollbar {
+    @apply hidden;
+  }
+
+*{
+    font-family : Outfit;
+}
